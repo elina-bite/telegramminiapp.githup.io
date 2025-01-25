@@ -1,0 +1,21 @@
+{
+    "name": "freshfitbotup/healthy-eating-bot",
+    "description": "Телеграм бот Fresh&Fit с советами по здоровоу питанию",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Freshfitbotup\\HealthyEatingBot\\": "scr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "elina and ilmira",
+            "email": "el.khasanova05@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "*",
+        "longman/telegram-bot": "*"
+    }
+}
